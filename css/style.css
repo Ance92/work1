@@ -1,0 +1,241 @@
+body{
+    background: url(../images/bc_grond.png) repeat;
+    margin: 0;
+}
+#top-pad.top{
+    background-color: #c45a47;
+    width: 100%;
+    height: 123px;
+    position: relative;
+}
+
+.menu{  
+    background: #f0f1f3 url(../images/navbar.png) no-repeat;
+    margin-top: 30px;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    -moz-box-shadow: 0 2px 1px #888;   /*yg buat efek shading di */
+    -webkit-box-shadow: 0 2px 1px #888;
+    box-shadow: 0 2px 1px #888;
+}
+.logo{
+    position: absolute;
+    background-color: transparent;
+    margin-top: -95px;
+    margin-right: 360px;
+}
+
+.header_resize{
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+}
+.menu_nav{
+    margin:0;
+	padding:0;
+}
+
+.menu_nav {
+	margin:0 auto;
+    position:relative;
+	padding:0;
+	height:95px;
+    margin-top: -135px;
+}
+.menu_nav ul {
+	list-style:none;
+	padding:23px 0 0;
+	height:36px;
+	float:right;
+}
+.menu_nav ul li {
+	margin:0;
+	padding:0 0px;
+	float:left;
+}
+.menu_nav ul li a {
+	display:block;
+	margin:0;
+	padding:15px 10px;
+	font-size:14px;
+    font-family: myriad Pro;
+	line-height:16px;
+	font-weight:800;
+	color:#c45a47;
+	text-decoration:none;
+	text-align:center;
+	text-transform:uppercase;
+	background:none;
+}
+.menu_nav ul li.active a, .menu_nav ul li a:hover {
+	text-decoration:none;
+	color:#fff;
+	background:#c45a47;
+}
+
+p.infopost {
+	margin-bottom:8px;
+    position: relative;
+	padding: 0px 0px;
+    margin-top: 0px;
+	color:#ffffff;
+}
+p.infopost a {
+	padding:0 2px;
+	color:#ffffff;
+	text-decoration: none;
+}
+
+.content_resize{
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+}
+
+.clr {
+	clear:both;
+	padding:0;
+	margin:0;
+	width:100%;
+	font-size:0;
+	line-height:0;
+}
+
+h2 {
+    font: 33px sans-serif;
+    margin-top: 121px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+h2:before {
+    border-top: 2px solid #dfdfdf;
+    content:"";
+    margin: 0 auto; /* this centers the line to the full width specified */
+    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 15px; left: 0; right: 0; bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+h2 span { 
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+    background: url(../images/bc_grond.png) repeat; 
+    padding: 0 15px; 
+}
+
+h2.double:before { 
+    /* this is just to undo the :before styling from above */
+    border-top: none; 
+}
+
+h2.double:after {
+    border-bottom: 4px solid #B9BBBE;
+    content: "";
+    margin: 0 auto; /* this centers the line to the full width specified */
+    position: absolute;
+    top: 45%; left: 0; right: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.transbox {
+    width: 960px;
+    height: 39px;
+    margin: 0px 0px;
+    background-color: #BBBdBF;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+
+.menu_nav2{
+    margin: 0;
+    padding: 0;
+}
+.menu_nav2{
+    margin: 0 auto;
+    position: absolute;
+    padding:0;
+	height:95px;
+    margin-top: -76px;
+}
+.menu_nav2 ul {
+	list-style:none;
+	padding:23px 0px 0;
+	height:36px;
+	float:right;
+}
+.menu_nav2 ul li {
+	margin:0;
+	padding: 0px 0px;
+	float:left;
+}
+.menu_nav2 ul li a {
+	display:block;
+	margin:0;
+	padding:10px 10px;
+	font-size:14px;
+    font-family: myriad Pro;
+	line-height:16px;
+	font-weight:800;
+	color:#606060;
+	text-decoration:none;
+	text-align:center;
+	text-transform:uppercase;
+	background:none;
+}
+.menu_nav2 ul li.active a, .menu_nav2 ul li a:hover {
+	text-decoration:none;
+	color:#fff;
+	background:#c45a47;
+}
+
+.box {
+    width: 954px;
+    height: 288px;
+    margin: 42px 0px;
+    background-color: #A35243;
+    border: 6px solid #ffffff;
+}
+.box2 {
+    width: 954px;
+    height: 288px;
+    margin: 42px 0px;
+    background-color: #383838;
+    border: 6px solid #ffffff;
+}
+
+
+.box-button {
+    width: 932px;
+    height: 90px;
+    margin: 72px 0px 145px 28px;
+    background-color: #c65b47;
+    
+}
+
+.footer{
+    width: 100%;
+    height: 347px;
+    position: relative;
+    background-color: #ffffff;
+    opacity: 0.7;
+    filter: alpha(opacity=60);
+    
+    -moz-box-shadow: 0px -5px #c45a47;
+    -webkit-box-shadow: 0px -5px #c45a47;
+    box-shadow: 0px -5px #c45a47;
+}
+
+
+
+
+
+
+
+
+
